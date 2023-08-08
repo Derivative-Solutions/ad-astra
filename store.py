@@ -74,4 +74,4 @@ def store(s3_bucket: str):
             print("Dictionary not found.")
 
 def lambda_handler(event, context):
-    store("ada-bucket")
+    store("ad-astra-bucket")
